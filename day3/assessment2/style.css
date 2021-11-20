@@ -1,0 +1,11 @@
+.sticky {
+    
+    position: sticky;
+    top: 0;
+    background-color: blue;
+    padding: 50px;
+    font-size: 20px;
+  }
+  p::first-line{
+color: blue;
+  }
