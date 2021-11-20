@@ -1,0 +1,68 @@
+#header {
+  position: fixed;
+
+  height: 40px;
+  width: 98%;
+  background-color: #12838b;
+  margin-bottom: 10px;
+}
+
+#name {
+  float: left;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#email {
+  float: right;
+  margin-right: 20px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+#contact {
+  margin-left: 45%;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
+  color: #ffffff;
+}
+
+.right {
+  float: left;
+  margin-top: 50px;
+  padding-left: 5px;
+  height: auto;
+  width: 99%;
+  background-color: #898a87;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+table {
+  border: 1px dashed black;
+}
+td {
+  padding: 2px;
+  border: 1px solid #0c0501;
+}
+
+#course-name {
+  font-weight: bold;
+}
+
+#company-name {
+  height: 2px;
+  text-decoration: underline;
+}
+
+#heading {
+  font-weight: bold;
+}
