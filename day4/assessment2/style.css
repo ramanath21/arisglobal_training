@@ -1,0 +1,24 @@
+.a {
+    display: inline; 
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid red;  
+    background-color: green; 
+  }
+  .b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: maroon; 
+  }
+  .c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid darkmagenta;    
+    background-color: palegreen; 
+  }
