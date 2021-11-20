@@ -1,0 +1,21 @@
+.item {
+  width: 300px;
+  height: 300px;
+  border: 15px solid blue;
+  padding: 50px;
+  margin: 20px;
+}
+.bold {
+  border: 15px dotted greenyellow;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 150px;
+}
+.si {
+  border: 5px dashed red;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
