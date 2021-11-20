@@ -1,0 +1,30 @@
+div h1{
+    color:blue;
+}
+
+div>p{
+    color:green;
+}
+a:hover{
+    color: blue;
+}
+a:focus{
+    color: crimson;
+}
+
+li:first-child{
+    color:darkblue ;
+}
+li:last-child{
+    color: darkgreen;
+}
+p::first-letter{
+    color: darkred;
+}
+p::before{
+    content: "1 ";
+}
+p::after{
+    content: " welcome you";
+    color: indigo;
+}
