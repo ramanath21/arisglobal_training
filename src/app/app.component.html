@@ -1,0 +1,63 @@
+<h1>hello</h1>
+<app-nav-bar></app-nav-bar>
+<app-footer></app-footer>
+<app-login></app-login>
+<div class="main">
+<app-sign-up></app-sign-up>
+<app-sign-up></app-sign-up>
+<app-sign-up></app-sign-up>
+
+</div>
+<h1>{{getperson("ramanath")}}</h1>
+
+<button (click)="getN('wayne')">click me</button>
+
+<input (keypress)="colorr('ram')"/>
+<input (keydown)="colorr('sham')"/><br/>
+<input (keyup)="colorr('lakhan')"/>
+<br/><br/>
+<hr/><br/><br/>
+
+<input type="text" value={{name}} disabled={{disabledBox}}/>
+<input type="text" [value]="name" [disabled]="disabledBox"/>
+<button (click)="enableInput()">enable</button>
+<br/>
+<br/>
+
+<input type="text"  [placeholder]="myplaceholder" [disabled]="disableBox"/>
+<button (click)="enablenput()">enable</button>
+<br>
+<br>
+<h1 *ngIf="day else elseBlock">hello</h1>
+
+<ng-template #elseBlock><h1>ramanath</h1></ng-template>
+<hr/>
+<ng-template [ngIf]="day" [ngIfElse]="evning"><h1>good morning</h1></ng-template>
+<ng-template #evning><h1>good evning</h1></ng-template>
+<hr/>
+<h1 *ngIf="day then day1 else elselock"></h1>
+<ng-template #day1><h1>day is good</h1></ng-template>
+
+<ng-template #elselock><h1>evning is also good</h1></ng-template>
+
+<hr/>
+
+<app-user-list></app-user-list>
+<hr/>
+
+
+<app-form></app-form>
+<hr/>
+
+<h1 *ngFor="let person of people">list of peoples</h1>
+<h1>{{people}}</h1>
+
+<hr/>
+
+<ul [ngSwitch]="person">
+    <li *ngSwitchCase="'Mohan'">Hello Mohan</li>
+    <li *ngSwitchCase="'Sohan'">Hello Sohan</li>
+    <li *ngSwitchCase="'Vijay'">Hello Vijay</li>
+    <li *ngSwitchDefault>Bye Bye</li>
+  </ul> 
+  
